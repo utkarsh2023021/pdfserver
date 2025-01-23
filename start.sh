@@ -1,4 +1,6 @@
 #!/bin/bash
+
+npm install -g pm2
 # Start Flask app
 pm2 start python app.py --name "flask-app"
 
